@@ -94,6 +94,9 @@ h3{
     font-family: --fuentePrincipal;
     text-decoration: none;
 }
+.navegacion__enlace:last-of-type{ /* ultimo elemento hijo */
+    margin-right: 0;
+}
 .navegacion__enlace--activo,
 .navegacion__enlace:hover{
     color: var(--secundario);
