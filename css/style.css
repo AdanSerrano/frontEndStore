@@ -102,6 +102,21 @@ h3{
     color: var(--secundario);
 }
 
+/* productos */
+.productos{
+}
+.producto__imagen{
+}
+.producto__informacion{
+}
+.nombre{
+
+}
+.precio{
+
+}
+
+
 /* footer */
 .footer{
     background-color: var(--primarioOscuro);
