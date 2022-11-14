@@ -136,11 +136,11 @@ h3{
     padding: 10px;
 }
 .producto__nombre{
-    font-size: 4rem;
     color: var(--secundario);
 }
 .producto__precio{
     font-size: 2.8rem;
+    font-size: 4rem;
     color: var(--blanco);
 }
 .producto__nombre, .producto__precio{
@@ -194,5 +194,27 @@ h3{
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
     font-size: 1.8rem;
+
+}
+
+
+/* about.html styles */
+/* nosotros */
+.nosotro{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 2rem;
+}
+.nosotro__imagen{
+    grid-row: 1/2;
+}
+@media (min-width: 768px){
+    .nosotros {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .nosotro__imagen{
+        grid-row: 2/3;
+    }
 
 }
