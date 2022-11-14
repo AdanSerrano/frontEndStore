@@ -202,19 +202,18 @@ h3{
 /* nosotros */
 .nosotro{
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    column-gap: 2rem;
+    grid-template-rows: repeat(2, auto);
 }
-.nosotro__imagen{
+.nosotro__imagen img{
     grid-row: 1/2;
+    width: 100%;
 }
 @media (min-width: 768px){
-    .nosotros {
+    .nosotro {
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        column-gap: 2rem;
     }
-    .nosotro__imagen{
-        grid-row: 2/3;
+    .nosotro__imagen img{
+        grid-column: 2/3;
     }
-
 }
